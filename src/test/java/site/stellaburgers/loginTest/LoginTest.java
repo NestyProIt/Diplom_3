@@ -1,5 +1,6 @@
-package site.stellaburgers;
+package site.stellaburgers.loginTest;
 
+import driver.WebDriverFactory;
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.ValidatableResponse;
@@ -7,7 +8,6 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import site.stellaburgers.driverFactory.WebDriverFactory;
 import site.stellaburgers.pageObjectModels.*;
 import site.stellaburgers.userCreate.UserCreate;
 import site.stellaburgers.userCreate.UserStep;
@@ -38,7 +38,7 @@ public class LoginTest {
     @Test
     @DisplayName("Вход пользователя в систему по кнопке Войти в аккаунт на главной странице")
     @Description("Успешный вход пользователя в систему")
-    public void LoginByLoginButtonOnHomePage() {
+    public void loginByLoginButtonOnHomePage() {
         //Открываем главную страницу
         homePage = new HomePage(driver);
         homePage.getHomePage();

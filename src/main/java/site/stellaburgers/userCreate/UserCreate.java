@@ -3,7 +3,6 @@ package site.stellaburgers.userCreate;
 import org.apache.commons.lang3.RandomStringUtils;
 
 public class UserCreate {
-
     private String email;
     private String password;
     private String name;
@@ -51,6 +50,4 @@ public class UserCreate {
     public void setName(String name) {
         this.name = name;
     }
-
-
 }

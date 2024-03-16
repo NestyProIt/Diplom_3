@@ -1,5 +1,6 @@
-package site.stellaburgers;
+package site.stellaburgers.switchTest;
 
+import driver.WebDriverFactory;
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.ValidatableResponse;
@@ -9,7 +10,6 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import site.stellaburgers.driverFactory.WebDriverFactory;
 import site.stellaburgers.pageObjectModels.HeaderMenuPage;
 import site.stellaburgers.pageObjectModels.LoginPage;
 import site.stellaburgers.userCreate.UserCreate;
