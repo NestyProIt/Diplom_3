@@ -1,4 +1,4 @@
-package site.stellaburgers.PageObjectModels;
+package site.stellaburgers.pageObjectModels;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-import static site.stellaburgers.Config.Config.LOGIN_PAGE_URI;
+import static site.stellaburgers.config.Config.LOGIN_PAGE_URI;
 
 
 public class LoginPage {

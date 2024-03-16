@@ -9,16 +9,16 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import site.stellaburgers.DriverFactory.WebDriverFactory;
-import site.stellaburgers.PageObjectModels.HeaderMenuPage;
-import site.stellaburgers.PageObjectModels.LoginPage;
-import site.stellaburgers.UserCreate.UserCreate;
-import site.stellaburgers.UserCreate.UserStep;
+import site.stellaburgers.driverFactory.WebDriverFactory;
+import site.stellaburgers.pageObjectModels.HeaderMenuPage;
+import site.stellaburgers.pageObjectModels.LoginPage;
+import site.stellaburgers.userCreate.UserCreate;
+import site.stellaburgers.userCreate.UserStep;
 
 import java.time.Duration;
 
 import static org.junit.Assert.assertEquals;
-import static site.stellaburgers.Config.Config.BASE_URI_STELLABURGERS;
+import static site.stellaburgers.config.Config.BASE_URI_STELLABURGERS;
 
 public class SwitchFromPersonalAccountTest {
     private HeaderMenuPage headerMenu;

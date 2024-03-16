@@ -1,4 +1,4 @@
-package site.stellaburgers.DriverFactory;
+package site.stellaburgers.driverFactory;
 
 
 import org.openqa.selenium.WebDriver;
@@ -27,33 +27,3 @@ public class WebDriverFactory {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

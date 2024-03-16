@@ -6,8 +6,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import site.stellaburgers.DriverFactory.WebDriverFactory;
-import site.stellaburgers.PageObjectModels.HomePage;
+import site.stellaburgers.driverFactory.WebDriverFactory;
+import site.stellaburgers.pageObjectModels.HomePage;
 
 import static org.junit.Assert.assertEquals;
 

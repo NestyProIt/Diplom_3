@@ -7,12 +7,12 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import site.stellaburgers.DriverFactory.WebDriverFactory;
-import site.stellaburgers.PageObjectModels.HomePage;
-import site.stellaburgers.PageObjectModels.LoginPage;
-import site.stellaburgers.PageObjectModels.RegistrationPage;
-import site.stellaburgers.UserCreate.UserCreate;
-import site.stellaburgers.UserCreate.UserStep;
+import site.stellaburgers.driverFactory.WebDriverFactory;
+import site.stellaburgers.pageObjectModels.HomePage;
+import site.stellaburgers.pageObjectModels.LoginPage;
+import site.stellaburgers.pageObjectModels.RegistrationPage;
+import site.stellaburgers.userCreate.UserCreate;
+import site.stellaburgers.userCreate.UserStep;
 
 import static org.junit.Assert.assertTrue;
 

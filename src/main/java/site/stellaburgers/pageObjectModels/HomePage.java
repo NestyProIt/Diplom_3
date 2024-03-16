@@ -1,4 +1,4 @@
-package site.stellaburgers.PageObjectModels;
+package site.stellaburgers.pageObjectModels;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-import static site.stellaburgers.Config.Config.BASE_URI_STELLABURGERS;
+import static site.stellaburgers.config.Config.BASE_URI_STELLABURGERS;
 
 public class HomePage {
     private static final By bunSection = By.xpath(".//span[text()='Булки']");

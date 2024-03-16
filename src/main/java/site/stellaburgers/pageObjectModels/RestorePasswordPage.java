@@ -1,4 +1,4 @@
-package site.stellaburgers.PageObjectModels;
+package site.stellaburgers.pageObjectModels;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-import static site.stellaburgers.Config.Config.RESTORE_PASSWORD_URI;
+import static site.stellaburgers.config.Config.RESTORE_PASSWORD_URI;
 
 public class RestorePasswordPage {
     private final By loginButton = By.xpath(".//a[text()='Войти']");
