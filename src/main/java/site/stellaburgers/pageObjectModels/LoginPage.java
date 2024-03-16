@@ -12,9 +12,9 @@ import static site.stellaburgers.config.Config.LOGIN_PAGE_URI;
 
 
 public class LoginPage {
-    private static final By emailField = By.xpath(".//label[text() = 'Email']/../input[contains(@name, 'name')]");
-    private static final By passwordField = By.xpath(".//label[text() = 'Пароль']/../input[contains(@type, 'password')]");
-    private static final By loginEnterButton = By.xpath(".//*[text()='Войти']");
+    private final By emailField = By.xpath(".//label[text() = 'Email']/../input[contains(@name, 'name')]");
+    private final By passwordField = By.xpath(".//label[text() = 'Пароль']/../input[contains(@type, 'password')]");
+    private final By loginEnterButton = By.xpath(".//*[text()='Войти']");
     private final By authorizationForm = By.className("Auth_login__3hAey");
     private final WebDriver driver;
 

@@ -11,7 +11,7 @@ import java.time.Duration;
 import static site.stellaburgers.config.Config.REGISTRATION_PAGE;
 
 public class RegistrationPage {
-    private static final By loginButtonFromRegistrationPage = By.xpath(".//*[text()='Войти']");
+    private final By loginButtonFromRegistrationPage = By.xpath(".//*[text()='Войти']");
     private final By registrationForm = By.xpath(".//*[text()='Регистрация']");
     private final By nameFieldRegistration = By.xpath("//div/form/fieldset[1]//input[@name='name']");
     private final By emailFieldRegistration = By.xpath("//div/form/fieldset[2]//input[@name='name']");

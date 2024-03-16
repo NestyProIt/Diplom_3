@@ -11,10 +11,10 @@ import java.time.Duration;
 import static site.stellaburgers.config.Config.BASE_URI_STELLABURGERS;
 
 public class HomePage {
-    private static final By bunSection = By.xpath(".//span[text()='Булки']");
-    private static final By fillingsSection = By.xpath(".//span[text()='Начинки']");
-    private static final By saucesSection = By.xpath(".//span[text()='Соусы']");
-    private static final By burgerIngredientsSectionName = By.xpath(".//div[contains(@class,'tab_tab_type_current')]");
+    private final By bunSection = By.xpath(".//span[text()='Булки']");
+    private final By fillingsSection = By.xpath(".//span[text()='Начинки']");
+    private final By saucesSection = By.xpath(".//span[text()='Соусы']");
+    private final By burgerIngredientsSectionName = By.xpath(".//div[contains(@class,'tab_tab_type_current')]");
     private final By loginButton = By.xpath("//button[text()='Войти в аккаунт']");
     private final By burgerIngredientSection = By.className("BurgerIngredients_ingredients__1N8v2");
     private final By orderCreateButton = By.xpath(".//*[text()='Оформить заказ']");

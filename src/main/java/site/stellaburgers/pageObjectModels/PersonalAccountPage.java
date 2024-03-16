@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class PersonalAccountPage {
-    private static final By logOutButton = By.xpath(".//button[text()='Выход']");
+    private final By logOutButton = By.xpath(".//button[text()='Выход']");
     private final WebDriver driver;
 
     public PersonalAccountPage(WebDriver driver) {
