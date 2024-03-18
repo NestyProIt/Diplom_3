@@ -1,4 +1,4 @@
-package site.stellaburgers.registrationTest;
+package site.stellaburgers.registrationtest;
 
 import driver.WebDriverFactory;
 import io.qameta.allure.Description;
@@ -8,12 +8,12 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import site.stellaburgers.pageObjectModels.HomePage;
-import site.stellaburgers.pageObjectModels.LoginPage;
-import site.stellaburgers.pageObjectModels.RegistrationPage;
-import site.stellaburgers.userCreate.UserCreate;
-import site.stellaburgers.userCreate.UserLogin;
-import site.stellaburgers.userCreate.UserStep;
+import site.stellaburgers.pageobjectmodels.HomePage;
+import site.stellaburgers.pageobjectmodels.LoginPage;
+import site.stellaburgers.pageobjectmodels.RegistrationPage;
+import site.stellaburgers.usercreate.UserCreate;
+import site.stellaburgers.usercreate.UserLogin;
+import site.stellaburgers.usercreate.UserStep;
 
 import static org.junit.Assert.assertTrue;
 

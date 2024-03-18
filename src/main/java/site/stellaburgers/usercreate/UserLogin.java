@@ -1,4 +1,4 @@
-package site.stellaburgers.userCreate;
+package site.stellaburgers.usercreate;
 
 public class UserLogin {
     private String email;

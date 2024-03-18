@@ -1,4 +1,4 @@
-package site.stellaburgers.pageObjectModels;
+package site.stellaburgers.pageobjectmodels;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;

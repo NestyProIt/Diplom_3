@@ -1,4 +1,4 @@
-package site.stellaburgers.constructorTest;
+package site.stellaburgers.constructortest;
 
 import driver.WebDriverFactory;
 import io.qameta.allure.Description;
@@ -7,7 +7,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import site.stellaburgers.pageObjectModels.HomePage;
+import site.stellaburgers.pageobjectmodels.HomePage;
 
 import static org.junit.Assert.assertEquals;
 

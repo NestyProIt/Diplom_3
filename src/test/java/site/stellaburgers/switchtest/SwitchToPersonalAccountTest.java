@@ -1,4 +1,4 @@
-package site.stellaburgers.switchTest;
+package site.stellaburgers.switchtest;
 
 import driver.WebDriverFactory;
 import io.qameta.allure.Description;
@@ -11,11 +11,11 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import site.stellaburgers.pageObjectModels.HeaderMenuPage;
-import site.stellaburgers.pageObjectModels.HomePage;
-import site.stellaburgers.pageObjectModels.LoginPage;
-import site.stellaburgers.userCreate.UserCreate;
-import site.stellaburgers.userCreate.UserStep;
+import site.stellaburgers.pageobjectmodels.HeaderMenuPage;
+import site.stellaburgers.pageobjectmodels.HomePage;
+import site.stellaburgers.pageobjectmodels.LoginPage;
+import site.stellaburgers.usercreate.UserCreate;
+import site.stellaburgers.usercreate.UserStep;
 
 import java.time.Duration;
 

@@ -1,4 +1,4 @@
-package site.stellaburgers.userCreate;
+package site.stellaburgers.usercreate;
 
 import io.qameta.allure.Step;
 import io.restassured.response.ValidatableResponse;
